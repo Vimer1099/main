@@ -1,3 +1,13 @@
+name = input("Введите ваше имя: ")
+print("Добро Пожаловать: " + name)
+if name == '1", "2", "3", "4", "5", "6", "7", "8","9","10':
+			 raise ZeroDivisionError
+	except ValueError:
+		print('Wrong value')
+  except ZeroDivisionError:
+		name = ''
+		print('Please write your name')
+
 num1 = num2 = sign = ''
 while num1 == '' or num2 == '' or sign == '':
 	try:
